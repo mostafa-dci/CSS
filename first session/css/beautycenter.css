@@ -1,0 +1,14 @@
+div{
+    /* background-color: blue; */
+    border: solid;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 10px 10px 10px 10px;
+    width:  150px;
+    height: 150px;
+    margin-top: 90px;
+    margin-left: 250px;
+}
+p{
+    text-align: center;
+    margin-top: 50%;
+}
