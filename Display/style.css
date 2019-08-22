@@ -1,0 +1,47 @@
+div{
+    border:1px solid ;
+    width:25%;
+    height: 100px;
+    
+}
+div div{
+    height: 50%;
+    display: none;/* to hide the element but it still exist */
+}
+h1{
+    display:inline;
+}
+span{
+    display: block
+}
+.igonnahideyou{
+    /* visibility: hidden; */
+    display:none
+}
+li{
+    display:inline;
+    border:5px solid green
+}
+a{
+    width: 70px;
+    margin: auto;
+    border-radius: 25px;
+    border:1px solid green;
+    padding: 18px;
+    background-color: rgb(21, 184, 34);
+    display: block;
+    text-decoration: none;
+    color:wheat;
+    box-shadow: 5px 5px  black;
+}
+a:hover{
+    background-color: rgb(32, 21, 184);
+}
+a::after{
+    content:"some after content";
+    color:yellow
+}
+*::selection{
+    color: darkblue;
+    background-color: yellowgreen
+}
