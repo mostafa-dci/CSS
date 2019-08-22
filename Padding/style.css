@@ -1,0 +1,36 @@
+.has-left-padding{
+    padding-left: 50px;
+}
+.top-padding{
+    /* padding control the elements inside the element which has a padding */
+    padding-top:100px;
+}
+div{
+    border:10px solid green;
+    height: 100px;
+}
+.right-padding{
+    width:30%;
+    padding-right:50px;
+}
+.deff-margin-padding{
+    border: 10px red solid;
+    margin:50px;
+    
+    padding: 100px;
+}
+.outline{
+    /* border: 15px yellow solid; */
+    /* border:none; */
+    /* same the border but outside the border */
+    outline:10px yellow ridge;
+    outline-offset: 25px/* control the erea between the content and the outline */
+}
+.two-values{
+    /* same to margin
+    padding: 50px 30px
+    => top bottom 50px
+    right left 30px
+    */
+    padding: 50px 30px;
+}

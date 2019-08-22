@@ -1,0 +1,7 @@
+Css can control the HTML elements: color, position,border, and more.
+ex: we can give a class to an Element thn, we can type a specific styles.
+for example: <p class="someclass">some text </p>(HTML)
+IN Css: 
+.someclass{
+    color: red;
+}

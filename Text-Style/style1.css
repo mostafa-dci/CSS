@@ -1,0 +1,46 @@
+.center{
+    text-align: center;
+}
+.align-left{
+    text-align: left;
+}
+.aligned-right{
+    text-align: right;
+}
+div{
+    /* for annnnnny div */
+    border:1px solid ;
+    background-color: gray;
+    width:50%;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:20px;
+}
+.justify{
+    text-align: justify;
+}
+.decoration{
+    text-decoration: underline
+}
+.transform{
+    text-transform: uppercase;
+}
+.indent{
+    text-indent: 50px;
+}
+.letter-spacing{
+    letter-spacing: 5px
+}
+.line-hiegh{
+    line-height: 1.5em;
+}
+.direction{
+    direction: rtl
+}
+.word-space{
+    word-spacing: 15px
+}
+.text-shadow{
+    text-shadow: 3px 2px red;
+}

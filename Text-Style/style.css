@@ -1,0 +1,9 @@
+.someclass p p  {
+    color:blue
+}
+div p{
+    color: red
+}
+.family div div div p{
+    color: yellow;
+}

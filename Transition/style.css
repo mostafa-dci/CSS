@@ -1,0 +1,13 @@
+.normalDiv{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+    transition: 10s ;/* duration of the state chang*/
+    transition-delay: 5s ;/* delay time */
+}
+.normalDiv:hover{/* event when the mouse over any element which has normalDiv as a class  */
+    background-color: blue;
+    width:800px;
+    height: 500px;
+}
