@@ -1,0 +1,38 @@
+ img{
+    width: 250px;
+    height: 250px;
+    border:10px solid green;
+    border-radius: 25px;
+} 
+.circled-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border:none;
+}
+.thumbnailed-img{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.centered-img{
+    /* margin-left: auto;
+    margin-right: auto ; */
+    margin: auto;
+    display: block;
+}
+.opacity{
+    opacity: 0.5;/* between 0 and 1 */
+}
+.changecolor{
+   /* -webkit-filter: blur(4px);/*verschwommen*/
+/*-webkit-filter: brightness(4%);/* brightness*/
+/*-webkit-filter: invert(50%);/* inverse color */
+/* -webkit-filter: grayscale(1%) */
+}
