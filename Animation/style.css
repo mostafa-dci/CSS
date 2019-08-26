@@ -1,0 +1,67 @@
+.animated {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: smoeMovement;
+    animation-duration: 5s;
+}
+
+
+@keyframes smoeMovement {
+    from {
+        background-color: red;
+        width: 100px;
+    }
+
+    to {
+        background-color: blue;
+        width: 200px;
+    }
+}
+
+.movingDiv {
+    width: 100px;
+    height: 100px;
+    top:125px;
+    left: 0px;
+    position: absolute;
+    background-color: blueviolet;
+    animation-name: moving;
+    animation-duration: 8s;
+    /* to make the animaqtion none stop */
+    animation-iteration-count: infinite;
+}
+
+@keyframes moving {
+    0% {
+        top:125px;
+        left: 0px;
+    }
+    25% {
+        top:150px;
+        left: 175px;
+    }
+    50%{
+        top:50px;
+        left: 100px;
+    }
+    75%{
+        top:150px;
+        left: 200px;
+    }
+    100%{
+        top:125px;
+        left: 0px;
+    }
+}
+/* For Safari */
+@-webkit-keyframes moving{
+    from {
+        top:125px;
+        left: 0px;
+    }
+    to {
+        top:250px;
+        left: 700px
+    }
+}

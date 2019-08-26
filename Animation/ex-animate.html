@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex animate</title>
+    <style>
+    .moving{
+        width:100px;
+        height: 100px;
+        background-color: red;
+        /* border-radius: 50%; */
+        position: absolute;
+        animation-name: moving;
+        animation-duration: 11s;
+        animation-iteration-count: infinite;
+        animation-delay: 5s;
+    }
+
+    @keyframes moving{
+0%{/* Standered State */
+top:0px;
+left:0px;
+transform: rotate(0deg);
+}
+9.0909%{/* Moving Horizantly left */
+    top:0px;
+    left:90%;
+}
+18.181818%{/* Moving verticaly down */
+    top:300px;
+    left:90%;
+    transform: rotate(45deg);
+}
+27.272727%{/* Moving Horizantly right */
+    top:300px;
+    left:0%;
+    transform: rotate(90deg);
+}
+100%{/* Moving verticaly top */
+    top:0px;
+left:0px;
+transform: rotate(125deg);
+}
+    }
+    /* 
+    -------- 1S--------
+    |                 |
+    |                 |
+    5S                2S
+    |                 |
+    |                 |
+    --------3S----------
+    11S = 100%
+    1S = x%
+     1 = 9.0909%
+     2S = 18.181818
+     3S = 27.272727
+     5S = 45.454545
+
+
+    -    
+    */
+    </style>
+</head>
+<body>
+    <div class="moving"></div><br><br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="moving"></div>
+</body>
+</html>

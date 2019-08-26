@@ -1,0 +1,50 @@
+p:nth-child(4){
+    /* nth function inside should take a parameter : 
+    the number of the Element
+    */
+    /* color: blue; */
+}
+p:nth-child(7), p:nth-child(8){
+    /* color:red */
+}
+p:nth-child(2n){
+    /* Even Numbers */
+    /* color:red */
+}
+p:nth-child(2n+1){
+    /* Odd Numbers */
+    /* color:orange; */
+}
+p:nth-child(odd){
+    /* also odd number */
+    /* color:red; */
+}
+p:nth-child(even){
+    /* even numbers */
+    /* color: blue; */
+}
+p:nth-child(4n+1){
+    color:red
+}
+table{
+    width:90%;
+    border: 1px solid;
+    margin: auto;
+}
+td{
+    border: 1px solid;
+}
+th{
+    border:1px solid;
+    background-color: gray
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine
+}
+tr:nth-child(2n){
+    background-color: aqua
+}
+tr:hover{
+    background-color: rgb(88, 167, 167)
+}
