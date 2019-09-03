@@ -1,0 +1,43 @@
+.font{
+    width: 75%;
+    border: 1px double;
+    background-color: rgb(105, 103, 103);
+    margin:auto;
+    padding: 2%;
+    box-shadow: 19px 11px 16px;
+    border-radius: 30px;
+    /* transition: 0.5s; */
+    font-family: "newFont";
+    font-style: italic
+    
+}
+/* important: not all of Fonts files free, chose free version
+ or use it in your local lap only */
+@font-face{
+    font-family: "newFont";
+    /* the src font file */
+    src:url("./fonts/Acme-Regular.ttf");
+}
+.font h1{
+    text-align: center;
+}
+.font:hover{
+    background-color: rgb(187, 184, 184);
+}
+
+.font h1{
+    text-decoration: none;
+    /* display: inline; */
+
+    transform: rotate(90deg);/* text inside text not working */
+}
+.font h1:hover{
+    transition:5s;
+    transform: rotate(360deg);
+    color: red;
+    
+}
+i:hover{
+    transition: 10s;
+    transform: rotate(45deg)
+}
